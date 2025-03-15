@@ -71,11 +71,11 @@ Open **three terminal windows** to run the following commands in parallel:
 
 ### 7. **Screenshots Sections**
 - **Home Page**
-  - [Screenshot](home.png)
+  - ![Screenshot](home.png)
   
 - **Bots Page**
-  - **Image Analyzer**: [Screenshot](image.png)
-  - **Audio Analyzer**: [Screenshot](audio.png)
-  - **Text Analyzer**:[Screenshot](text.png)
+  - **Image Analyzer**: ![Screenshot](image.png)
+  - **Audio Analyzer**: ![Screenshot](audio.png)
+  - **Text Analyzer**:![Screenshot](text.png)
 
-- **Automation Page**: [Screenshot](automation.png)
+- **Automation Page**: ![Screenshot](automation.png)
