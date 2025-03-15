@@ -37,7 +37,7 @@
 #### 2. **Install Dependencies**
 Once inside the activated virtual environment, install the required libraries:
 ```bash
-pip install reactpy transformers gradio pytesseract SpeechRecognition streamlit
+pip install reactpy transformers gradio streamlit
 ```
 
 #### 3. **Running the Project**
