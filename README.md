@@ -6,9 +6,10 @@
   - An automation page to convert media and generate content.
 
 ### 2. **Library List**
-- **ReactPy**: For creating the home page UI.
-- **Gradio**: For interacting with models.
-- **Transformers**: For encoding and decoding text, images, and audio.
+1. **ReactPy**: For creating the home page UI.
+2. **Gradio**: For interacting with models.
+3. **Transformers**: For encoding and decoding text, images, and audio.
+4. **Streamlit**: For handling the automation page.
 
 ### 3. **Pretrained Models**
 - **Tesseract OCR**: For image-to-text conversion.
@@ -40,29 +41,35 @@ Once inside the activated virtual environment, install the required libraries:
 pip install reactpy transformers gradio streamlit
 ```
 
-#### 3. **Running the Project**
-- Open **three terminal windows** to run the following commands in parallel:
-  1. **Run the main UI**:
-     ```bash
-     python ui.py
-     ```
-  2. **Activate the Gradio bots**:
-     ```bash
-     python app.py
-     ```
-  3. **Activate the Automation page**:
-     ```bash
-     streamlit automation.py
-     ```
+### 5. **Running the Project**
+Open **three terminal windows** to run the following commands in parallel:
 
-### 5. **Folder Structure**
+1. **Run the main UI**:
+   ```bash
+   python ui.py
+   ```
+   This will run the main home page of the project on a local server.
+
+2. **Activate the Gradio bots**:
+   ```bash
+   python app.py
+   ```
+   This will start the Gradio bots on a local server.
+
+3. **Activate the Automation page**:
+   ```bash
+   streamlit automation.py
+   ```
+   This will run the Streamlit automation page on a local server.
+
+### 6. **Folder Structure**
 - **Project Directory**:
   - `env/`: Virtual environment folder
   - `ui.py`: ReactPy-based UI for the home page
   - `app.py`: Gradio bot integration
   - `automation.py`: Automation page logic using Streamlit
 
-### 6. **Screenshots Sections**
+### 7. **Screenshots Sections**
 - **Home Page**
   - Screenshot placeholder for the main home page of the project.
   
