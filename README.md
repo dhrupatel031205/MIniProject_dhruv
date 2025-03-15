@@ -10,6 +10,8 @@
 2. **Gradio**: For interacting with models.
 3. **Transformers**: For encoding and decoding text, images, and audio.
 4. **Streamlit**: For handling the automation page.
+5. **PyAutoGui**: For performing the automatic operation on the pc
+6. **Selenium**: For operating the webbrowser.
 
 ### 3. **Pretrained Models**
 - **Tesseract OCR**: For image-to-text conversion.
@@ -38,7 +40,7 @@
 #### 2. **Install Dependencies**
 Once inside the activated virtual environment, install the required libraries:
 ```bash
-pip install reactpy transformers gradio streamlit
+pip install reactpy transformers gradio streamlit pyautogui selenium
 ```
 
 ### 5. **Running the Project**
